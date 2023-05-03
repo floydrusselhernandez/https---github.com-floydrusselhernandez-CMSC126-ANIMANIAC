@@ -1,5 +1,6 @@
 html{
     background-color: rgb(179, 174, 174);
+    font-family: Century Gothic;
 }
 .gallery{
     font-weight: bolder;
@@ -77,4 +78,7 @@ html{
     flex: 100%;
     max-width: 100%;
   }
+}
+form[id="submit-form"]{
+  
 }
