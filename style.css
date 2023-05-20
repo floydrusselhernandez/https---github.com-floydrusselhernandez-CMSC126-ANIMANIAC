@@ -92,7 +92,7 @@ input[type="file"], input[type="submit"], a[href="shop.html"]{
   width: 100%;
   gap: 10px;
   padding: 0 4px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .image img{
@@ -172,19 +172,20 @@ label[class="artist-name"]{
 }
 
 /* Shop page table*/
-.shop-item{
+/* .shop-item table, th, td{
   border: 2px solid black;
-}
+} */
+
 #product-name{
   font-size: x-large;
   color: aliceblue;
   text-align: center;
   padding-top: 1px;
 }
-.shop-item img{
+.shop-item img, .product-views img{
   border-radius: 5px;
-  width: 450px;
-  height: 450px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   display: flexbox;
   margin: 10px;
