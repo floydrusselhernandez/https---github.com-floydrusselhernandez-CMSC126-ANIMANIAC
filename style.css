@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html{
     background-color: rgb(179, 174, 174);
     font-family: Century Gothic;
